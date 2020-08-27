@@ -142,8 +142,8 @@
         </div>
         </div>
         <div hidden=true>
-            <textarea disabled name="OgName" class="materialize-textarea"><?php echo $GameName?></textarea>
-            <textarea disabled name="OgPlatform" class="materialize-textarea"><?php echo $GamePlatform?></textarea>
+            <textarea disabled id="OgName" class="materialize-textarea"><?php echo $GameName?></textarea>
+            <textarea disabled id="OgPlatform" class="materialize-textarea"><?php echo $GamePlatform?></textarea>
         </div>
   </form>
         <?php endif;?>
